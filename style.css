@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --violeta escuro: #231942ff;
+    --violeta claro: #5e548eff;
+    --roxo claro: #9f86c0ff;
+    --lilas: #be95c4ff;
+    --rosa-claro: #e0b1cbff;
+    --fonte-titulo:"Edu AU VIC WA NT Guides", cursive;
+    --fontr-texto: "Josefin Sans", sans-serif;
+}
+body{
+    background-color: var(--lilas);
+    font-family: var(--fonte-texto);
+}
 h1{
-    background-color: rgba(190, 141, 255, 0.397)
+    background-color: rgba(195, 166, 233, 0.397)
 }
