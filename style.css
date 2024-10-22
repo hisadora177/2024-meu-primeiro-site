@@ -11,12 +11,30 @@
     --lilas: #be95c4ff;
     --rosa-claro: #e0b1cbff;
     --fonte-titulo:"Edu AU VIC WA NT Guides", cursive;
-    --fontr-texto: "Josefin Sans", sans-serif;
+    --fonte-texto: "Josefin Sans", sans-serif;
 }
 body{
     background-color: var(--lilas);
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-corpo);
+}
+.titulo-principal{
+    font-family: var(--fonte-titulo)
 }
 h1{
-    background-color: rgba(195, 166, 233, 0.397)
+    background-color: rgba(213, 187, 247, 0.397)
+    display: flex;
+    align-items: center;
+    justify-content: space-between
 }
+
+.cabecalho-img{
+    windth;10%
+    margin: lem;
+}
+
+.cabecalho__link
+ text-decoration: none;
+ font-size: 2em
+ background-color: var (--rosa-claro);
+ font-family: var(--fonte-titulo);
+ margin-ringht: lem
